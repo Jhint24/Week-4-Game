@@ -1,0 +1,23 @@
+body    {
+    background-image: url("../images/green_dust.png")
+
+}
+
+header {
+    font-family: 'Anton', sans-serif;
+    font-size: 27px;
+    background-color: salmon;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.instructions   {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    background-color: mediumorchid;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}

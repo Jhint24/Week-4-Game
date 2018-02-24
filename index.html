@@ -4,9 +4,11 @@
 <head>
     <title>Week 4 Crystals</title>
 
-        <link rel="stylesheet" type="text/css" href="aseets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
 </head>
 
 <body>
@@ -17,30 +19,39 @@
         <li><p>A random number will be displayed at the beginning of each round</p></li>
         <li><p> Click on one of the four colored crystals below to begin adding points to your total score</p></li>
         <li><p>Each crystal has it's own hidden value, which will also change each round</p></li>
-        <li><p>Win the game by matching your total points to the random number.  If you go over, you lose.  Good Luck!</p></li>
+        <li><p>Win the game by matching your total points to the random number.  If you go over, you lose.</p></li>
+        <p><h2>Good Luck!</h2></p>
         </ul>
     </div>
 
     <div class="game-information">
-        <div class="random number">
+        <div class="random-number">
+            <h3>Target Number:  <span id="target-number"></span></h3>
 
         </div>
         
-        <div class="wins-losses">
+        <div class="points">
+            <h3>Current Score: <span id="current-score"></span></h3>
 
         </div>
 
     </div>
 
     <div class="crystals">
+        <img id = "blue" src="assets/images/BlueGem.png" alt="Blue Gem">
+        <img id = "red" src="assets/images/RedGem.png" alt="Red Gem">
+        <img id = "green" src="assets/images/GreenGem.png" alt="Green Gem">
+        <img id = "orange" src="assets/images/OrangeGem.png" alt="Orange Gem">
 
     </div>
 
-    <div class= "total-score">
+    <div class= "wins-losses">
+        <h5>Wins: <span id="wins"></span></h5>
+        <h5>Losses: <span id="losses"></span></h5>
 
     </div>
 
-
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>

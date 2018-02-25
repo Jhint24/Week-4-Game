@@ -43,7 +43,7 @@ li  {
 }
 
 .random-number  {
-    background: sandybrown;
+    background: salmon;
     color: whitesmoke;
     text-align: center;
     font-family: 'Anton', sans-serif;
@@ -55,7 +55,7 @@ li  {
 }
 
 .points {
-    background: sandybrown;
+    background: salmon;
     color: whitesmoke;
     text-align: center;
     font-family: 'Anton', sans-serif;
@@ -86,8 +86,8 @@ img {
 }
 
 .wins-losses    {
-    background: sandybrown;
-    color: whitesmoke;
+    background: salmon;
+    color: black;
     text-align: center;
     font-family: 'Anton', sans-serif;
     font-size: 30px;
@@ -97,5 +97,21 @@ img {
     padding: 25px;
     margin-top: 5px;
     margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 640px)    {
+    header  {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .instructions, .random-number, .points, .crystals, .wins-losses   {
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 90%;
+    }
 
 }
